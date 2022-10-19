@@ -1,11 +1,33 @@
-#artboard-1 {
-	background: red;
+#canvas {
 	position: absolute;
 }
 
 .controls {
 	position: absolute;
+	bottom: 16px;
+	left: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 	z-index: 9999;
+}
+
+button {
+	background-color: #18181b;
+	color: #fafafa;
+	padding: 8px 24px;
+	height: 40px;
+	min-width: 96px;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	border-radius: 16px;
+	transition: background-color ease 150ms;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #2f2f34;
 }
 
 img {
