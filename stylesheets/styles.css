@@ -1,0 +1,13 @@
+#artboard-1 {
+	background: red;
+	position: absolute;
+}
+
+.controls {
+	position: absolute;
+	z-index: 9999;
+}
+
+img {
+	display: none;
+}
